@@ -216,7 +216,12 @@
         .member p {
           font-size: 13px;
         }
-      
+      .discover-btn{
+        margin:0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
           .ad-section {
             flex-direction: column;
             text-align: center;
@@ -240,6 +245,7 @@
             width: 90%;
             max-width: 400px;
           }
+        
           .guide-offer-card {
             width: 80%;
           }
@@ -768,6 +774,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
   }
 
   .cardses-container,
@@ -852,7 +859,7 @@
     text-align: center;
   }
 
-  .right-content h2 {
+  .right-content h2,h5 {
     font-size: 22px;
     text-align: center;
   }
